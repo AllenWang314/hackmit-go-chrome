@@ -3,7 +3,7 @@
 
   findAndReplaceDOMText(document.body, {
     preset: 'prose',
-    find: /\bgo\/([0-9a-z-]+)\b/,
+    find: /\bp\/([0-9a-z-]+)\b/,
     filterElements: function(elt) {
       // don't mess with existing links
       if (elt.tagName === 'A') {
@@ -14,8 +14,8 @@
     },
     replace: function(portion, match) {
       var a = document.createElement('a');
-      a.href = 'https://go.hackmit.org/' + match[1];
-      a.innerText = 'go/' + match[1];
+      a.href = 'https://mitpokerclub.herokuapp.com/' + match[1];
+      a.innerText = 'p/' + match[1];
       return a;
     },
   });
