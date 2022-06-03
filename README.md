@@ -1,13 +1,11 @@
-# HackMIT Go Chrome Extension
+# HackMIT Go Chrome Extension Adopted for Allen's Personal Usage
 
-A Chrome extension for https://go.hackmit.org/
+A Chrome extension for https://go.allenwang314.com/
 
 Just type `go something` in the omnibar...
 
 The extension also finds all instances of "go/whatever", even on Google Docs
 and stuff, and automatically turns them into clickable links!
-
-Get the extension here: https://chrome.google.com/webstore/detail/aebbebohffjpnifkhjninighbpimlgfl
 
 License
 -------

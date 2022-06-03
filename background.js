@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  var BASE_URL = 'https://go.hackmit.org/';
+  var BASE_URL = 'https://go.allenwang314.com/';
 
   function navigate(url) {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
