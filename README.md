@@ -1,4 +1,4 @@
-# HackMIT Go Chrome Extension Adopted for Allen's Personal Usage
+# Allen Go Chrome Extension Adopted for Allen's Personal Usage
 
 A Chrome extension for https://go.allenwang314.com/
 
